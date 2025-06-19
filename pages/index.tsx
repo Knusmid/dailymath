@@ -1,9 +1,17 @@
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-6">
-      <h1 className="text-3xl font-bold mb-4">수학 힌트 학습 사이트</h1>
-      <p className="mb-6">초등 4학년부터 고2까지, 개념 강의와 어려운 문제, 단계별 힌트를 통해 스스로 사고하게 합니다.</p>
-      <a href="/dashboard" className="bg-blue-600 text-white px-6 py-3 rounded">시작하기</a>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-50 to-purple-100 text-gray-800 p-6">
+      <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">📘 수학 힌트 퀘스트</h1>
+      <p className="text-lg sm:text-xl text-center max-w-xl mb-8">
+        초4부터 고2까지, 매주 개념 강의와 고난도 문제를 통해<br />
+        스스로 생각하는 수학 훈련을 시작해보세요!
+      </p>
+      <a
+        href="/dashboard"
+        className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl text-lg shadow-md transition duration-200"
+      >
+        지금 시작하기 🚀
+      </a>
     </div>
   );
 }
